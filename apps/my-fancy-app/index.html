@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SSR for everyone</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+  <main id="app">
+    <section id="island-intro">
+      <island src="islands/intro" />
+    </section>
+    <section class="counters">
+      <div id="island-counter-vanilla" class="counter">
+        <island src="islands/counter-vanilla" hydrate />
+      </div>
+      <div id="island-counter-svelte" class="counter">
+        <island src="islands/counter-svelte" hydrate />
+      </div>
+      <div id="island-counter-vue" class="counter">
+        <island src="islands/counter-vue" hydrate />
+      </div>
+      <div id="island-counter-react" class="counter">
+        <island src="islands/counter-react" hydrate />
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

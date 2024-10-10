@@ -1,0 +1,45 @@
+{
+  "_counter-BwDwepJE.js": {
+    "file": "assets/counter-BwDwepJE.js",
+    "name": "counter"
+  },
+  "src/islands/counter-react/entry-server.js": {
+    "file": "islands/counter-react.js",
+    "name": "islands/counter-react",
+    "src": "src/islands/counter-react/entry-server.js",
+    "isEntry": true,
+    "imports": [
+      "_counter-BwDwepJE.js"
+    ]
+  },
+  "src/islands/counter-svelte/entry-server.js": {
+    "file": "islands/counter-svelte.js",
+    "name": "islands/counter-svelte",
+    "src": "src/islands/counter-svelte/entry-server.js",
+    "isEntry": true,
+    "imports": [
+      "_counter-BwDwepJE.js"
+    ]
+  },
+  "src/islands/counter-vanilla/entry-server.js": {
+    "file": "islands/counter-vanilla.js",
+    "name": "islands/counter-vanilla",
+    "src": "src/islands/counter-vanilla/entry-server.js",
+    "isEntry": true
+  },
+  "src/islands/counter-vue/entry-server.js": {
+    "file": "islands/counter-vue.js",
+    "name": "islands/counter-vue",
+    "src": "src/islands/counter-vue/entry-server.js",
+    "isEntry": true,
+    "imports": [
+      "_counter-BwDwepJE.js"
+    ]
+  },
+  "src/islands/intro/entry-server.js": {
+    "file": "islands/intro.js",
+    "name": "islands/intro",
+    "src": "src/islands/intro/entry-server.js",
+    "isEntry": true
+  }
+}

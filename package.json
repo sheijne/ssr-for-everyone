@@ -1,0 +1,8 @@
+{
+  "name": "ssr-for-everyone",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
